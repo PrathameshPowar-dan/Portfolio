@@ -87,16 +87,16 @@ const Projects = () => {
                             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                         >
                             <div className="slide min-w-full h-56 md:h-72 flex justify-center items-center">
-                                <img src="/weather.png" alt="Weather App" className="h-full object-contain rounded-2xl" />
+                                <img src="/weather.webp" alt="Weather App" loading="lazy" className="h-full object-contain rounded-2xl" />
                             </div>
                             <div className="slide min-w-full h-56 md:h-72 flex justify-center items-center">
-                                <img src="/audio.png" alt="Audio Player" className="h-full object-contain rounded-2xl" />
+                                <img src="/audio.webp" alt="Audio Player" loading="lazy" className="h-full object-contain rounded-2xl" />
                             </div>
                             <div className="slide min-w-full h-56 md:h-72 flex justify-center items-center">
-                                <img src="/insta.png" alt="Social Media UI" className="h-full object-contain rounded-2xl" />
+                                <img src="/insta.webp" alt="Social Media UI" loading="lazy" className="h-full object-contain rounded-2xl" />
                             </div>
                             <div className="slide min-w-full h-56 md:h-72 flex justify-center items-center">
-                                <img src="/todo.png" alt="Todo List" className="h-full object-contain rounded-2xl" />
+                                <img src="/todo.webp" alt="Todo List" loading="lazy" className="h-full object-contain rounded-2xl" />
                             </div>
                         </div>
 

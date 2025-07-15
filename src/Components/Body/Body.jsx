@@ -67,7 +67,7 @@ const Body = () => {
     return (
         <section id='About' className='flex flex-col items-center w-full'>
             <img
-                src="./portfolio.jpg"
+                src="./me.webp"
                 alt="my picture"
                 className='w-3/5 h-3/5 md:w-56 rounded-full shadow-2xl shadow-white'
                 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200"
