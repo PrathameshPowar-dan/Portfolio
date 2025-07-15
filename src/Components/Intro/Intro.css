@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+.intro-wrapper {
+    min-width: 320px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hello__svg {
+    max-height: 200px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 35px;
+    stroke-dasharray: 5800px;
+    stroke-dashoffset: 5800px;
+    animation: anim__hello linear 3s forwards;
+    text-align: center;
+}
+
+@keyframes anim__hello {
+    0% {
+        stroke-dashoffset: 5800;
+    }
+
+    5% {
+        stroke-dashoffset: 5800;
+    }
+
+    85% {
+        opacity: 1;
+        stroke: #fff;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        opacity: 0;
+    }
+}
