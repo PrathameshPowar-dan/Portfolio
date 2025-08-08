@@ -35,7 +35,17 @@ const Projects = () => {
                         <p className='text-amber-400 text-base md:text-2xl font-extrabold font-stretch-125%'>ChatsWhat</p>
                         <p className='text-gray-200 text-xs w-4/5 md:text-sm text-center'>A personal portfolio built with React.js, Tailwind CSS,HTML5.</p>
                         <div className="project-buttons flex justify-center gap-5">
-                            <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="">Preview <VscOpenPreview /></a></button>
+                            <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://chatswhat.onrender.com/login" target="_blank">Preview <VscOpenPreview /></a></button>
+                            <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://github.com/PrathameshPowar-dan/ChatsWhat" target="_blank">Code <FaGithub /></a></button>
+                        </div>
+                    </div>
+                    <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e]  border border-gray-700 pt-3 pb-3 mb-3  rounded-2xl" data-aos="zoom-in-up"
+                        data-aos-delay="200"
+                        data-aos-duration="1000">
+                        <p className='text-amber-400 text-base md:text-2xl font-extrabold font-stretch-125%'>Portfolio</p>
+                        <p className='text-gray-200 text-xs w-4/5 md:text-sm text-center'>A personal portfolio built with React.js, Tailwind CSS,HTML5.</p>
+                        <div className="project-buttons flex justify-center gap-5">
+                            <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="" target="_blank">Preview <VscOpenPreview /></a></button>
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="" target="_blank">Code <FaGithub /></a></button>
                         </div>
                     </div>
@@ -87,6 +97,9 @@ const Projects = () => {
                             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                         >
                             <div className="slide min-w-full h-56 md:h-72 flex justify-center items-center">
+                                <img src="/chatswhat.webp" alt="Todo List" loading="lazy" className="h-full object-contain rounded-2xl" />
+                            </div>
+                            <div className="slide min-w-full h-56 md:h-72 flex justify-center items-center">
                                 <img src="/weather.webp" alt="Weather App" loading="lazy" className="h-full object-contain rounded-2xl" />
                             </div>
                             <div className="slide min-w-full h-56 md:h-72 flex justify-center items-center">
@@ -101,7 +114,7 @@ const Projects = () => {
                         </div>
 
                         <div className="dots flex justify-center gap-3 mt-0.5 md:mt-2">
-                            {[0, 1, 2, 3].map(i => (
+                            {[0, 1, 2, 3, 4].map(i => (
                                 <div
                                     key={i}
                                     className={`dot rounded-full cursor-pointer transition-colors ${currentSlide === i ? 'bg-white' : 'bg-gray-400'
