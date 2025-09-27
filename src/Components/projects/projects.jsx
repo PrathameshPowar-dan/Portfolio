@@ -117,6 +117,9 @@ const Projects = () => {
                             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                         >
                             <div className="slide min-w-full h-56 md:h-72 flex justify-center items-center">
+                                <img src="/ReCodeDitorWeb.webp" alt="Todo List" loading="lazy" className="h-full object-contain rounded-2xl" />
+                            </div>
+                            <div className="slide min-w-full h-56 md:h-72 flex justify-center items-center">
                                 <img src="/chatswhat.webp" alt="Todo List" loading="lazy" className="h-full object-contain rounded-2xl" />
                             </div>
                             <div className="slide min-w-full h-56 md:h-72 flex justify-center items-center">
@@ -134,7 +137,7 @@ const Projects = () => {
                         </div>
 
                         <div className="dots flex justify-center gap-3 mt-0.5 md:mt-2">
-                            {[0, 1, 2, 3, 4].map(i => (
+                            {[0, 1, 2, 3, 4,5].map(i => (
                                 <div
                                     key={i}
                                     className={`dot rounded-full cursor-pointer transition-colors ${currentSlide === i ? 'bg-white' : 'bg-gray-400'
