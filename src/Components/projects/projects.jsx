@@ -32,6 +32,16 @@ const Projects = () => {
                     <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e]  border border-gray-700 pt-3 pb-3 mb-3  rounded-2xl" data-aos="zoom-in-up"
                         data-aos-delay="200"
                         data-aos-duration="1000">
+                        <p className='text-amber-400 text-base md:text-2xl font-extrabold font-stretch-125%'>ReCodeDitor</p>
+                        <p className='text-gray-200 text-xs w-4/5 md:text-sm text-center'>Saas Code Editor built using Next.js</p>
+                        <div className="project-buttons flex justify-center gap-5">
+                            <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://re-code-ditor.vercel.app/" target="_blank">Preview <VscOpenPreview /></a></button>
+                            <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://github.com/PrathameshPowar-dan/ReCodeDitor" target="_blank">Code <FaGithub /></a></button>
+                        </div>
+                    </div>
+                    <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e]  border border-gray-700 pt-3 pb-3 mb-3  rounded-2xl" data-aos="zoom-in-up"
+                        data-aos-delay="200"
+                        data-aos-duration="1000">
                         <p className='text-amber-400 text-base md:text-2xl font-extrabold font-stretch-125%'>Dan's Den</p>
                         <p className='text-gray-200 text-xs w-4/5 md:text-sm text-center'>A food delivery website built with React.js, Tailwind CSS, and Node.js.</p>
                         <div className="project-buttons flex justify-center gap-5">
