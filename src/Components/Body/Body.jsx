@@ -92,7 +92,7 @@ const Body = () => {
                 <article className='border flex flex-col items-center gap-1 w-1/3  rounded-2xl bg-gray-900 border-gray-800 pt-2 pb-2' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <IoCodeSlashSharp fill='Cyan' size={28} />
                     <p className='text-base md:text-2xl font-extrabold'>Frontend Developer</p>
-                    <p className='text-xs md:text-lg text-center'>React.js, HTML5, CSS, JavaScript, Redux</p>
+                    <p className='text-xs md:text-lg text-center'>React.js, Next.js, Redux</p>
                 </article>
                 <article className='border flex flex-col items-center gap-1 w-1/3 rounded-2xl bg-gray-900 border-gray-800 pt-2 pb-2' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <CiMobile4 fill='Cyan' size={28} />
@@ -102,7 +102,7 @@ const Body = () => {
                 <article className='border flex flex-col items-center gap-1 w-1/3 rounded-2xl bg-gray-900 border-gray-800 pt-2 pb-2' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                     <FaPaintbrush fill='Cyan' size={28} />
                     <p className='text-base md:text-2xl font-extrabold'>Backend Developer</p>
-                    <p className='text-xs md:text-lg text-center'>MERN Stack</p>
+                    <p className='text-xs md:text-lg text-center'>Node.js, Express.js, MongoDB, SQL, PostgreSQL</p>
                 </article>
             </div>
         </section>
