@@ -59,7 +59,7 @@ const Projects = () => {
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://github.com/PrathameshPowar-dan/ChatsWhat" target="_blank">Code <FaGithub /></a></button>
                         </div>
                     </div>
-                    <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e]  border border-gray-700 pt-3 pb-3 mb-3  rounded-2xl" data-aos="zoom-in-up"
+                    {/* <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e]  border border-gray-700 pt-3 pb-3 mb-3  rounded-2xl" data-aos="zoom-in-up"
                         data-aos-delay="200"
                         data-aos-duration="1000">
                         <p className='text-amber-400 text-base md:text-2xl font-extrabold font-stretch-125%'>Portfolio</p>
@@ -68,8 +68,8 @@ const Projects = () => {
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="" target="_blank">Preview <VscOpenPreview /></a></button>
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="" target="_blank">Code <FaGithub /></a></button>
                         </div>
-                    </div>
-                    <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e] border border-gray-700 pt-3 pb-3 mb-3 rounded-2xl" data-aos="zoom-in-up"
+                    </div> */}
+                    {/* <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e] border border-gray-700 pt-3 pb-3 mb-3 rounded-2xl" data-aos="zoom-in-up"
                         data-aos-delay="200"
                         data-aos-duration="1000">
                         <p className='text-amber-400 text-base md:text-2xl font-extrabold font-stretch-125%'>Weather App</p>
@@ -78,8 +78,8 @@ const Projects = () => {
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://dan-weatherapp.netlify.app/" target="_blank">Preview <VscOpenPreview /></a></button>
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://github.com/PrathameshPowar-dan/weather-app" target="_blank">Code <FaGithub /></a></button>
                         </div>
-                    </div>
-                    <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e]  border border-gray-700 pt-3 pb-3 mb-3 rounded-2xl" data-aos="zoom-in-up"
+                    </div> */}
+                    {/* <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e]  border border-gray-700 pt-3 pb-3 mb-3 rounded-2xl" data-aos="zoom-in-up"
                         data-aos-delay="200"
                         data-aos-duration="1000">
                         <p className='text-amber-400 text-base md:text-2xl font-extrabold font-stretch-125%'>Audio Player</p>
@@ -88,8 +88,8 @@ const Projects = () => {
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://dan-audio-player.netlify.app/" target="_blank">Preview <VscOpenPreview /></a></button>
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://github.com/PrathameshPowar-dan/audio-player" target="_blank">Code <FaGithub /></a></button>
                         </div>
-                    </div>
-                    <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e]  border border-gray-700 pt-3 pb-3 mb-3 rounded-2xl" data-aos="zoom-in-up"
+                    </div> */}
+                    {/* <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%] bg-[#1e1e1e]  border border-gray-700 pt-3 pb-3 mb-3 rounded-2xl" data-aos="zoom-in-up"
                         data-aos-delay="200"
                         data-aos-duration="1000">
                         <p className='text-amber-400 text-base md:text-2xl font-extrabold font-stretch-125%'>Social Media</p>
@@ -98,8 +98,8 @@ const Projects = () => {
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://dan-socialmedia.netlify.app/" target="_blank">Preview <VscOpenPreview /></a></button>
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://github.com/PrathameshPowar-dan/social-media" target="_blank">Code <FaGithub /></a></button>
                         </div>
-                    </div>
-                    <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%]  bg-[#1e1e1e] border border-gray-700 pt-3 pb-3 mb-3 rounded-2xl" data-aos="zoom-in-up"
+                    </div> */}
+                    {/* <div className="project flex flex-col justify-center items-center gap-2 w-11/12 m-auto mt-2 md:w-[30%]  bg-[#1e1e1e] border border-gray-700 pt-3 pb-3 mb-3 rounded-2xl" data-aos="zoom-in-up"
                         data-aos-delay="200"
                         data-aos-duration="1000">
                         <p className='text-amber-400 text-base md:text-2xl font-extrabold font-stretch-125%'>Todolist</p>
@@ -108,7 +108,7 @@ const Projects = () => {
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://dan-todolist-app.netlify.app/" target="_blank">Preview <VscOpenPreview /></a></button>
                             <button ><a className='font-sm text-blue-400 flex justify-center items-center gap-0.5' href="https://github.com/PrathameshPowar-dan/Todolist" target="_blank">Code <FaGithub /></a></button>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="banner w-full overflow-hidden md:mt-6 mt-0" data-aos="zoom-in-up"
                         data-aos-delay="200"
                         data-aos-duration="1000">
