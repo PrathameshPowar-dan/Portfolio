@@ -137,7 +137,7 @@ const Projects = () => {
                         </div>
 
                         <div className="dots flex justify-center gap-3 mt-0.5 md:mt-2">
-                            {[0, 1, 2, 3, 4,5].map(i => (
+                            {[0, 1, 2, 3, 4, 5].map(i => (
                                 <div
                                     key={i}
                                     className={`dot rounded-full cursor-pointer transition-colors ${currentSlide === i ? 'bg-white' : 'bg-gray-400'
